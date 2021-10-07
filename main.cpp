@@ -35,7 +35,7 @@ class estado{
             case 2:
                 if (word[counter] == 'f' and word[counter+1] == 'e')return next(word, counter+2);
                 else if (word[counter] == 't' and word[counter+1] == 'u')return next(word, counter+2);
-                else if (word[counter] == 'f' and word[counter+1] == 's'){ state = 4; return next(word, counter+2);}
+                else if (word[counter] == 'f' and word[counter+1] == 's'){ state = 3; return next(word, counter+2);}
                 break;
             case 3:
                 if (word[counter] == 'b' and word[counter+1] == 'l')return next(word, counter+2);
