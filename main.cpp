@@ -10,7 +10,7 @@ class estado{
     estado(int state): state(state){};
     bool next(string &word, int counter){
         if(state == 5 && counter == word.length()+1)return true;
-        if(counter ==  word.length()+1 && counter > 0 && state == 4){
+        if(counter ==  word.length() && counter > 0 && state == 4){
             return 1;
         }
 
